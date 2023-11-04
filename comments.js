@@ -31,7 +31,8 @@ var server = http.createServer(function (request, response) {
         request.on('data', function (data) {
             body += data;
         }
-    }
-});
+        );
+}
 
+});
 
