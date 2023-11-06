@@ -32,9 +32,9 @@ var server = http.createServer(function (request, response) {
             body += data;
         }
         );
-}
-
+    }
 });
 // 6. listen port
 server.listen(3000);
+
 
